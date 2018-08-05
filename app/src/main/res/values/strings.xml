@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Bookstore Inventory</string>
+
+    <!-- Strings for the genre array, which go in the spinner -->
+    <string name="genre_unknown_string">Unknown</string>
+    <string name="genre_fiction_string">Fiction</string>
+    <string name="genre_nonfiction_string">Non-fiction</string>
+
+    <!-- Strings for the category names in newbook activity -->
+    <string name="category_genre_string">Genre</string>
+    <string name="category_book_string">Book</string>
+    <string name="category_supplier_string">Supplier</string>
+    <string name="category_stock_string">Stock</string>
+
+    <!-- Strings for the hint in the edittexts in the newbook activity -->
+    <string name="edittext_hint_title">Title</string>
+    <string name="edittext_hint_author">Author</string>
+    <string name="edittext_price_string">Price</string>
+    <string name="edittext_hint_quantity">Quantity</string>
+    <string name="edittext_hint_supl_name">Name</string>
+    <string name="edittext_hint_supl_phone">Phonenumber</string>
+
+    <string name="menu_save_button">Save</string>
+
+    <!-- Strings for the list items on the mainscreen -->
+    <string name="text_price_euro">"Price: &#x20AC;"</string>
+    <string name="text_author_by">By: </string>
+    <string name="button_sale">Sale</string>
+    <string name="text_currently_stock">Currently in stock: </string>
+
+    <!-- Strings for the unsaved action dialog box -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Strings displayed in the emptyview -->
+    <string name="empty_view_title">There are no books in storage</string>
+    <string name="empty_view_subtitle">Add a book to get started</string>
+
+    <!-- Toast messages -->
+    <string name="toast_out_of_stock">Out of stock</string>
+    <string name="toast_no_phonenmbr">Sorry, no phone number provided</string>
+    <string name="toast_already_out_stock">This product is already out of stock</string>
+    <string name="toast_saved_success">Book saved successfully</string>
+    <string name="toast_saved_error">Error with saving book</string>
+    <string name="toast_update_fail">Update failed</string>
+    <string name="toast_update_success">Update successful</string>
+    <string name="toast_delete_fail">Failed to delete the book</string>
+    <string name="toast_delete_success">Book deleted</string>
+    <string name="toast_book_sold">Book sold</string>
+
+</resources>

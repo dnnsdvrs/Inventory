@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_small">
+
+    <TextView
+        android:id="@+id/text_book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="@dimen/font_larger"
+        android:textStyle="bold"
+        tools:text="De Aanslag" />
+
+    <TextView
+        android:id="@+id/text_book_writer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_book_title"
+        android:layout_toRightOf="@id/text_author_by"
+        android:paddingVertical="@dimen/spacing_small"
+        tools:text="Harry Mulisch"
+
+        />
+
+    <TextView
+        android:id="@+id/text_author_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_book_title"
+        android:paddingRight="@dimen/spacing_tiny"
+        android:paddingVertical="@dimen/spacing_small"
+        android:text="@string/text_author_by" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_author_by"
+        android:paddingRight="@dimen/spacing_tiny"
+        android:text="@string/text_price_euro"
+        android:textColor="@color/infoTextColor"
+        android:textSize="@dimen/font_small" />
+
+    <TextView
+        android:id="@+id/text_price_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_author_by"
+        android:layout_toEndOf="@id/text_price"
+        android:layout_toRightOf="@id/text_price"
+        android:textColor="@color/infoTextColor"
+        android:textSize="@dimen/font_small"
+        tools:text="25" />
+
+    <TextView
+        android:id="@+id/text_instock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_author_by"
+        android:layout_toEndOf="@id/text_price_number"
+        android:layout_toRightOf="@id/text_price_number"
+        android:paddingEnd="@dimen/spacing_tiny"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_tiny"
+        android:paddingStart="@dimen/spacing_large"
+        android:text="@string/text_currently_stock"
+        android:textColor="@color/infoTextColor"
+        android:textSize="@dimen/font_small" />
+
+    <TextView
+        android:id="@+id/text_instock_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_author_by"
+        android:layout_toRightOf="@id/text_instock"
+        android:textColor="@color/infoTextColor"
+        android:textSize="@dimen/font_small"
+        tools:text="100" />
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:text="@string/button_sale" />
+
+
+</RelativeLayout>

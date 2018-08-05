@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+    </style>
+
+    <!-- Styles of the category titles, left in the newbook activity -->
+    <style name="newbook_category_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:layout_margin">@dimen/spacing_normal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Styles of the edittext fields -->
+    <style name="edittext_styles">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/spacing_small</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_small</item>
+    </style>
+
+</resources>
